@@ -1,0 +1,10 @@
+name: Code Scan Analysis
+on: workflow_dispatch
+jobs: 
+  scan-code:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: scan the code
+        run: echo " Scanning the code"
+      - name: Code Severities
+        run: echo " No Code Severities detected"
